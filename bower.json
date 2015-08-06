@@ -1,0 +1,25 @@
+{
+  "name": "MEAN Stack",
+  "version": "0.0.0",
+  "authors": [
+    "Andrew Feese"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "toastr": "~2.1.1",
+    "angular": "~1.4.3",
+    "angular-resource": "~1.4.3",
+    "angular-route": "~1.4.3",
+    "bootstrap": "~3.3.5"
+  }
+}
