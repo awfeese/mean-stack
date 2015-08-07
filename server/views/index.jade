@@ -1,19 +1,23 @@
 extends ../includes/layout
 
 block main-content
-	.navbar.navbar-inverse.navbar-fixed-top
-		.container
-			.navbar-header
-				a.navbar-brand(href="/") MEAN Stack
-					h6 -Extreme Tech Training
-			.navbar-collapse.collapse
-				ul.nav.navbar-nav
-					li
-						a(href="/") Home
-				div(ng-include="'/partials/account/navbar-login'")
+	div.wrapper
+		.navbar.navbar-inverse.navbar-fixed-top
+			.container
+				.navbar-header
+					a.navbar-brand(href="/") MEAN Stack
+						h6 -Extreme Tech Training
+				.navbar-collapse.collapse
+					ul.nav.navbar-nav
+						li
+							a(href="/") Home
+						li
+							a(href="/courses") Courses
+					div(ng-include="'/partials/account/navbar-login'")
 
-	section.content
-		div(ng-view)
+		section.content
+			div(ng-view)
+		div.push
 
 	footer.container.text-center
 		p &copy; 2015 MEAN Stack Corp International Ltd.
